@@ -28,7 +28,9 @@ while True:
 
     # Ask the user if they want to continue
     should_continue = input("Continue? (y/n): ").lower()
+    # If not 
     if should_continue == "n":
+        # Terminate
         break
-# If not 
-# Terminate
+
+
